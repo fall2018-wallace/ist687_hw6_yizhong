@@ -87,15 +87,15 @@
             "name": "arrests.csv"
         },
         {
+            "name": "merge_df.csv"
+        },
+        {
             "assigned_to": "yzhong18",
             "desc": "Create a merged dataframe -- with the attributes from both dataframes",
             "name": "script7992.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "merge_df.csv"
         }
     ],
-    "updated_at": "2018-10-09 20:54:36",
+    "updated_at": "2018-10-09 20:55:39",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
