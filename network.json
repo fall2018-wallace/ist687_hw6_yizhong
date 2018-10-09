@@ -70,11 +70,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "yzhong18",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -94,8 +89,14 @@
             "desc": "Create a merged dataframe -- with the attributes from both dataframes",
             "name": "script7992.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "1)\tRead in the census dataset (using the function created in HW 3)",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:56:18",
+    "updated_at": "2018-10-09 20:57:59",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
