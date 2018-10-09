@@ -55,8 +55,12 @@
         },
         {
             "name": "arrests.csv"
+        },
+        {
+            "desc": "Create a merged dataframe -- with the attributes from both dataframes",
+            "name": "script7992.R"
         }
     ],
-    "updated_at": "2018-10-09 20:44:24",
+    "updated_at": "2018-10-09 20:48:44",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
