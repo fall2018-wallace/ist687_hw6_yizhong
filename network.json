@@ -36,8 +36,12 @@
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "generate USArrests datasets",
+            "name": "script4189.R"
         }
     ],
-    "updated_at": "2018-10-09 20:39:31",
+    "updated_at": "2018-10-09 20:41:27",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
