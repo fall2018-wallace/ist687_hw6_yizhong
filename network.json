@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arrests",
+                    "type": "csv"
+                }
+            ],
+            "source": "script4189.R",
+            "target": "arrests.csv"
         }
     ],
     "nodes": [
@@ -47,6 +57,6 @@
             "name": "arrests.csv"
         }
     ],
-    "updated_at": "2018-10-09 20:42:55",
+    "updated_at": "2018-10-09 20:44:24",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
