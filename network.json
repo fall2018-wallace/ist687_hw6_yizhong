@@ -37,16 +37,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "script7992.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "arrests",
                     "type": "csv"
                 }
@@ -63,6 +53,16 @@
             ],
             "source": "script7992.R",
             "target": "merge_df.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "script7992.R"
         }
     ],
     "nodes": [
@@ -97,6 +97,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:57:59",
+    "updated_at": "2018-10-09 20:58:40",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
