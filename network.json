@@ -53,6 +53,16 @@
             ],
             "source": "arrests.csv",
             "target": "script7992.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "merge_df.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "script7992.R",
+            "target": "merge_df.csv"
         }
     ],
     "nodes": [
@@ -86,6 +96,6 @@
             "name": "merge_df.csv"
         }
     ],
-    "updated_at": "2018-10-09 20:54:22",
+    "updated_at": "2018-10-09 20:54:36",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
