@@ -37,21 +37,21 @@
         {
             "ports": [
                 {
-                    "input": "data.csv",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "script7992.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "arrests.csv",
                     "type": "csv"
                 }
             ],
             "source": "arrests.csv",
+            "target": "script7992.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
             "target": "script7992.R"
         }
     ],
@@ -83,6 +83,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:52:31",
+    "updated_at": "2018-10-09 20:52:46",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
