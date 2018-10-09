@@ -57,7 +57,7 @@
         {
             "ports": [
                 {
-                    "output": "merge_df.csv",
+                    "output": "merge_df",
                     "type": "csv"
                 }
             ],
@@ -96,6 +96,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:55:39",
+    "updated_at": "2018-10-09 20:56:18",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
