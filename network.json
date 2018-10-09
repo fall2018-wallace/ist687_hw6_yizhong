@@ -31,7 +31,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "script7992.R",
+            "source": "Mergeddataframe.R",
             "target": "merge_df.csv"
         },
         {
@@ -42,7 +42,7 @@
                 }
             ],
             "source": "data.csv",
-            "target": "script7992.R"
+            "target": "Mergeddataframe.R"
         }
     ],
     "nodes": [
@@ -57,17 +57,17 @@
         },
         {
             "assigned_to": "yzhong18",
-            "desc": "Create a merged dataframe -- with the attributes from both dataframes",
-            "name": "script7992.R",
+            "desc": "1)\tRead in the census dataset (using the function created in HW 3)",
+            "name": "clean.R",
             "task_status": "in progress"
         },
         {
             "assigned_to": "yzhong18",
-            "desc": "1)\tRead in the census dataset (using the function created in HW 3)",
-            "name": "clean.R",
+            "desc": "Create a merged dataframe -- with the attributes from both dataframes",
+            "name": "Mergeddataframe.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 23:55:30",
+    "updated_at": "2018-10-09 23:55:56",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
