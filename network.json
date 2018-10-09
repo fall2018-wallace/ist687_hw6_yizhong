@@ -66,8 +66,12 @@
             "desc": "Create a merged dataframe -- with the attributes from both dataframes",
             "name": "Mergeddataframe.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "4)\tCreate a histogram using GGPLOT for the population and a different histogram for the murder rate",
+            "name": "plotpop.R"
         }
     ],
-    "updated_at": "2018-10-09 23:55:56",
+    "updated_at": "2018-10-09 23:57:10",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
