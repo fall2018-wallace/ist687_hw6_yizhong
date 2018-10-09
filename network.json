@@ -30,12 +30,17 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "yzhong18",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "name": "UsArrest.csv"
         }
     ],
-    "updated_at": "2018-10-08 02:04:05",
+    "updated_at": "2018-10-09 20:39:07",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
