@@ -33,6 +33,16 @@
             ],
             "source": "script4189.R",
             "target": "arrests.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "arrests.csv",
+            "target": "script7992.R"
         }
     ],
     "nodes": [
@@ -57,10 +67,12 @@
             "name": "arrests.csv"
         },
         {
+            "assigned_to": "yzhong18",
             "desc": "Create a merged dataframe -- with the attributes from both dataframes",
-            "name": "script7992.R"
+            "name": "script7992.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:48:44",
+    "updated_at": "2018-10-09 20:50:21",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
