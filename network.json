@@ -53,6 +53,16 @@
             ],
             "source": "merge_df.csv",
             "target": "plotpop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotpop",
+                    "type": "png"
+                }
+            ],
+            "source": "plotpop.R",
+            "target": "plotpop.png"
         }
     ],
     "nodes": [
@@ -87,6 +97,6 @@
             "name": "plotpop.png"
         }
     ],
-    "updated_at": "2018-10-10 00:00:30",
+    "updated_at": "2018-10-10 00:00:40",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
