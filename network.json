@@ -217,15 +217,15 @@
             "name": "bar_murdernum2.png"
         },
         {
-            "assigned_to": "yzhong18",
-            "desc": "7)\tCalculate the number of murders per state 8)\tGenerate a bar chart, with the number of murders per state\r\nHint: use the geom_col function9)\tGenerate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels10)\tGenerate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate11)\tGenerate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar\r\n",
-            "name": "barchart.R",
-            "task_status": "in progress"
+            "name": "bar_murdernum3.png"
         },
         {
-            "name": "bar_murdernum3.png"
+            "assigned_to": "yzhong18",
+            "desc": "7)\tCalculate the number of murders per state 8)\tGenerate a bar chart, with the number of murders per state\r\nHint: use the geom_col function9)\tGenerate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels10)\tGenerate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate11)\tGenerate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar12)\tGenerate a scatter plot \u2013 have population on the X axis, the percent over 18 on the y axis, and the size & color represent the Murder rate\r\n",
+            "name": "barchart.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 02:58:00",
+    "updated_at": "2018-10-10 02:58:35",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
