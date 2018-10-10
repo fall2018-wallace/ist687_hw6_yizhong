@@ -52,7 +52,7 @@
                 }
             ],
             "source": "merge_df.csv",
-            "target": "plotpop.R"
+            "target": "plot.R"
         },
         {
             "ports": [
@@ -61,7 +61,7 @@
                     "type": "png"
                 }
             ],
-            "source": "plotpop.R",
+            "source": "plot.R",
             "target": "plotpop.png"
         },
         {
@@ -71,7 +71,7 @@
                     "type": "png"
                 }
             ],
-            "source": "plotpop.R",
+            "source": "plot.R",
             "target": "plotmurder.png"
         }
     ],
@@ -98,18 +98,18 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "yzhong18",
-            "desc": "4)\tCreate a histogram using GGPLOT for the population and a different histogram for the murder rate",
-            "name": "plotpop.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plotpop.png"
         },
         {
             "name": "plotmurder.png"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "4)\tCreate a histogram using GGPLOT for the population and a different histogram for the murder rate",
+            "name": "plot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 02:32:37",
+    "updated_at": "2018-10-10 02:32:58",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
