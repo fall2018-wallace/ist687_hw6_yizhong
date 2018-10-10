@@ -113,6 +113,16 @@
             ],
             "source": "merge_df.csv",
             "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_murdernum",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "bar_murdernum.png"
         }
     ],
     "nodes": [
@@ -177,6 +187,6 @@
             "name": "bar_murdernum.png"
         }
     ],
-    "updated_at": "2018-10-10 02:51:12",
+    "updated_at": "2018-10-10 02:51:28",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
