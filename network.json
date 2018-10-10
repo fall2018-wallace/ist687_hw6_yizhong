@@ -83,6 +83,16 @@
             ],
             "source": "merge_df.csv",
             "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot_pop.png"
         }
     ],
     "nodes": [
@@ -129,6 +139,6 @@
             "name": "boxplot_pop.png"
         }
     ],
-    "updated_at": "2018-10-10 02:35:54",
+    "updated_at": "2018-10-10 02:36:10",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
