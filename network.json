@@ -107,13 +107,9 @@
             "name": "plotpop.png"
         },
         {
-            "desc": "4)\tCreate a histogram using GGPLOT for the murder rate",
-            "name": "plotmurder.R"
-        },
-        {
             "name": "plotmurder.png"
         }
     ],
-    "updated_at": "2018-10-10 02:32:14",
+    "updated_at": "2018-10-10 02:32:37",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
