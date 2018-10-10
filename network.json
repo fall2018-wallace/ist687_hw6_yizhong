@@ -185,8 +185,12 @@
         },
         {
             "name": "bar_murdernum.png"
+        },
+        {
+            "desc": "9)\tGenerate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels",
+            "name": "bar_murdernum.R"
         }
     ],
-    "updated_at": "2018-10-10 02:51:28",
+    "updated_at": "2018-10-10 02:52:28",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
