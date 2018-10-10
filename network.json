@@ -123,16 +123,6 @@
             ],
             "source": "barchart.R",
             "target": "bar_murdernum.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "merge_df",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "barchart.R",
-            "target": "bar_murdernum.R"
         }
     ],
     "nodes": [
@@ -195,12 +185,8 @@
         },
         {
             "name": "bar_murdernum.png"
-        },
-        {
-            "desc": "9)\tGenerate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels",
-            "name": "bar_murdernum.R"
         }
     ],
-    "updated_at": "2018-10-10 02:53:11",
+    "updated_at": "2018-10-10 02:54:28",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
