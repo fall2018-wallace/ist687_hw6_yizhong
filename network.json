@@ -242,13 +242,9 @@
         },
         {
             "name": "scatter_murder.png"
-        },
-        {
-            "desc": "",
-            "name": "script8577.R"
         }
     ],
     "notes": "IST687,Yi Zhong,Homework6,2018/10/9",
-    "updated_at": "2018-10-10 03:10:43",
+    "updated_at": "2018-10-10 03:11:12",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
