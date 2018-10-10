@@ -168,10 +168,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "yzhong18",
             "desc": "7)\tCalculate the number of murders per state",
-            "name": "calculate.R"
+            "name": "calculate.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "8)\tGenerate a bar chart, with the number of murders per state",
+            "name": "barchart.R"
         }
     ],
-    "updated_at": "2018-10-10 02:39:56",
+    "updated_at": "2018-10-10 02:40:57",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
