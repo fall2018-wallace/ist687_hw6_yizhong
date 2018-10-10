@@ -137,8 +137,11 @@
         },
         {
             "name": "boxplot_pop.png"
+        },
+        {
+            "name": "boxplot_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 02:36:10",
+    "updated_at": "2018-10-10 02:36:23",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
