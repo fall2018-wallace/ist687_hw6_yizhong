@@ -78,10 +78,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "yzhong18",
             "desc": "4)\tCreate a histogram using GGPLOT for the population and a different histogram for the murder rate",
-            "name": "plotpop.R"
+            "name": "plotpop.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plotpop.png"
         }
     ],
-    "updated_at": "2018-10-09 23:57:27",
+    "updated_at": "2018-10-10 00:00:30",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
