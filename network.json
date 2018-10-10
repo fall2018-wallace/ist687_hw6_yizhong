@@ -163,6 +163,11 @@
             ],
             "source": "barchart.R",
             "target": "scatter_murder.png"
+        },
+        {
+            "ports": [],
+            "source": "boxplot.R",
+            "target": "script6655.R"
         }
     ],
     "nodes": [
@@ -239,6 +244,6 @@
             "name": "scatter_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 02:59:23",
+    "updated_at": "2018-10-10 03:00:19",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
