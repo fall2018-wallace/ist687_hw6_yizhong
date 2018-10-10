@@ -120,10 +120,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "yzhong18",
             "desc": "5)\tCreate a boxplot for the population, and a different boxplot for the murder rate",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "boxplot_pop.png"
         }
     ],
-    "updated_at": "2018-10-10 02:34:01",
+    "updated_at": "2018-10-10 02:35:54",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
