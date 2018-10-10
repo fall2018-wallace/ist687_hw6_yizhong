@@ -150,8 +150,12 @@
         },
         {
             "name": "boxplot_murder.png"
+        },
+        {
+            "desc": "6)\tCreate a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)",
+            "name": "script6655.R"
         }
     ],
-    "updated_at": "2018-10-10 02:37:38",
+    "updated_at": "2018-10-10 02:37:59",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
