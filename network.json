@@ -1,0 +1,249 @@
+{
+    "collaborators": [
+        "yzhong18"
+    ],
+    "created_at": "2018-10-08 02:01:00",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "Mergeddataframe.R",
+            "target": "merge_df.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "Mergeddataframe.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge_df.csv",
+            "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotpop",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "plotpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotmurder",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "plotmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge_df.csv",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge_df.csv",
+            "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_murdernum",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "bar_murdernum.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_murdernum1",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "bar_murdernum1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_murdernum2",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "bar_murdernum2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_murdernum3",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "bar_murdernum3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "scatter_murder.png"
+        },
+        {
+            "ports": [],
+            "source": "boxplot.R",
+            "target": "script6655.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "name": "merge_df.csv"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "1)\tRead in the census dataset (using the function created in HW 3)",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "Create a merged dataframe -- with the attributes from both dataframes",
+            "name": "Mergeddataframe.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plotpop.png"
+        },
+        {
+            "name": "plotmurder.png"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "4)\tCreate a histogram using GGPLOT for the population and a different histogram for the murder rate",
+            "name": "plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "5)\tCreate a boxplot for the population, and a different boxplot for the murder rate",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "boxplot_pop.png"
+        },
+        {
+            "name": "boxplot_murder.png"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "6)\tCreate a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)",
+            "name": "script6655.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "bar_murdernum.png"
+        },
+        {
+            "name": "bar_murdernum1.png"
+        },
+        {
+            "name": "bar_murdernum2.png"
+        },
+        {
+            "name": "bar_murdernum3.png"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "7)\tCalculate the number of murders per state 8)\tGenerate a bar chart, with the number of murders per state\r\nHint: use the geom_col function9)\tGenerate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels10)\tGenerate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate11)\tGenerate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar12)\tGenerate a scatter plot \u2013 have population on the X axis, the percent over 18 on the y axis, and the size & color represent the Murder rate\r\n",
+            "name": "barchart.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatter_murder.png"
+        }
+    ],
+    "updated_at": "2018-10-10 03:00:19",
+    "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
+}
