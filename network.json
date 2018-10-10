@@ -112,7 +112,7 @@
                 }
             ],
             "source": "merge_df.csv",
-            "target": "barchart.R"
+            "target": "merge_df.R"
         },
         {
             "ports": [
@@ -121,7 +121,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "barchart.R",
+            "source": "merge_df.R",
             "target": "script1986.R"
         }
     ],
@@ -179,15 +179,17 @@
         },
         {
             "assigned_to": "yzhong18",
-            "desc": "7)\tCalculate the number of murders per state8)\tGenerate a bar chart, with the number of murders per state\r\nHint: use the geom_col function\r\n",
-            "name": "barchart.R",
+            "desc": "",
+            "name": "script1986.R",
             "task_status": "in progress"
         },
         {
-            "desc": "",
-            "name": "script1986.R"
+            "assigned_to": "yzhong18",
+            "desc": "7)\tCalculate the number of murders per state8)\tGenerate a bar chart, with the number of murders per state\r\nHint: use the geom_col function\r\n",
+            "name": "merge_df.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 02:47:14",
+    "updated_at": "2018-10-10 02:49:02",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
