@@ -93,6 +93,16 @@
             ],
             "source": "boxplot.R",
             "target": "boxplot_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot_murder.png"
         }
     ],
     "nodes": [
@@ -142,6 +152,6 @@
             "name": "boxplot_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 02:36:23",
+    "updated_at": "2018-10-10 02:36:33",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
