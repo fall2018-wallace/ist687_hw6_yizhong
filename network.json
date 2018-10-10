@@ -73,6 +73,16 @@
             ],
             "source": "plot.R",
             "target": "plotmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge_df.csv",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -114,6 +124,6 @@
             "name": "boxplot.R"
         }
     ],
-    "updated_at": "2018-10-10 02:33:45",
+    "updated_at": "2018-10-10 02:34:01",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
