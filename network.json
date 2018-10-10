@@ -63,6 +63,16 @@
             ],
             "source": "plotpop.R",
             "target": "plotpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotmurder",
+                    "type": "png"
+                }
+            ],
+            "source": "plotpop.R",
+            "target": "plotmurder.png"
         }
     ],
     "nodes": [
@@ -104,6 +114,6 @@
             "name": "plotmurder.png"
         }
     ],
-    "updated_at": "2018-10-10 02:31:59",
+    "updated_at": "2018-10-10 02:32:14",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
