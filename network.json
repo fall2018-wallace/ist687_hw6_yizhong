@@ -172,8 +172,11 @@
             "desc": "7)\tCalculate the number of murders per state 8)\tGenerate a bar chart, with the number of murders per state\r\nHint: use the geom_col function\r\n",
             "name": "barchart.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "bar_murdernum.png"
         }
     ],
-    "updated_at": "2018-10-10 02:50:49",
+    "updated_at": "2018-10-10 02:51:12",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
