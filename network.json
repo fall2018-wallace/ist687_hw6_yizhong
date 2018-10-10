@@ -185,8 +185,11 @@
         },
         {
             "name": "bar_murdernum.png"
+        },
+        {
+            "name": "bar_murdernum1.png"
         }
     ],
-    "updated_at": "2018-10-10 02:54:28",
+    "updated_at": "2018-10-10 02:54:44",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
