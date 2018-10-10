@@ -143,6 +143,16 @@
             ],
             "source": "barchart.R",
             "target": "bar_murdernum2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_murdernum3",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "bar_murdernum3.png"
         }
     ],
     "nodes": [
@@ -216,6 +226,6 @@
             "name": "bar_murdernum3.png"
         }
     ],
-    "updated_at": "2018-10-10 02:57:51",
+    "updated_at": "2018-10-10 02:58:00",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
