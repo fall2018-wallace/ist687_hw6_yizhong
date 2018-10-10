@@ -152,10 +152,16 @@
             "name": "boxplot_murder.png"
         },
         {
+            "assigned_to": "yzhong18",
             "desc": "6)\tCreate a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)",
-            "name": "script6655.R"
+            "name": "script6655.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "7)\tCalculate the number of murders per state",
+            "name": "calculate.R"
         }
     ],
-    "updated_at": "2018-10-10 02:37:59",
+    "updated_at": "2018-10-10 02:39:34",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
