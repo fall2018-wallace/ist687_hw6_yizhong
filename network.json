@@ -113,6 +113,16 @@
             ],
             "source": "merge_df.csv",
             "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "merge_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "script1986.R"
         }
     ],
     "nodes": [
@@ -178,6 +188,6 @@
             "name": "script1986.R"
         }
     ],
-    "updated_at": "2018-10-10 02:47:01",
+    "updated_at": "2018-10-10 02:47:14",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
