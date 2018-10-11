@@ -242,8 +242,13 @@
         },
         {
             "name": "scatter_murder.png"
+        },
+        {
+            "desc": "",
+            "name": "satisfactionSurvey.R"
         }
     ],
-    "updated_at": "2018-10-10 03:00:19",
+    "notes": "IST687,Yi Zhong,Homework6,2018/10/9",
+    "updated_at": "2018-10-11 16:42:23",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
