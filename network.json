@@ -246,9 +246,12 @@
         {
             "desc": "",
             "name": "satisfactionSurvey.R"
+        },
+        {
+            "name": "satisfactionSurvey.csv"
         }
     ],
     "notes": "IST687,Yi Zhong,Homework6,2018/10/9",
-    "updated_at": "2018-10-11 16:42:23",
+    "updated_at": "2018-10-11 16:42:41",
     "url": "https://github.com/fall2018-wallace/ist687_hw6_yizhong"
 }
